@@ -1,0 +1,59 @@
+Για κάθε ένα από τα παρακάτω τεστ χρησιμοποιήστε τις τιμές των σταθερών
+που αναφέρονται και κατά την εκτέλεση τα ορίσματα προγράμμτος που αναφέρονται.
+ 
+Στο autolab θα υπάρχουν περισσότερα τεστ τα οποία όμως θα είναι παράγωγα 
+των παρακάτω (π.χ. αντί για ένα τεστ με επιλογές -h -p μπορεί να υπάρχουν 
+δύο, ένα με μόνο -h κι ένα με μόνο -p).
+
+Επιπλέον, στο autolab θα υπάρχουν τεστ για καταστάσεις λάθους (π.χ. λάθος
+πλήθος ορισμάτων)
+
+==============================
+a_in1:  
+
+ορισμοί: 
+#define MAX_WORDS 100
+#define MAX_WORD_LEN 24
+#define MAX_SYNONYMS 100
+#define MAX_LINE_LEN 50
+#define MAX_FILENAME_LEN 20
+
+ορίσματα προγράμματος: -p -h 
+
+==============================
+
+a_in2: 
+
+ορισμοί: 
+#define MAX_WORDS 50
+#define MAX_WORD_LEN 24
+#define MAX_SYNONYMS 100
+#define MAX_LINE_LEN 55
+#define MAX_FILENAME_LEN 20
+
+ορίσματα προγράμματος: -p -h 
+
+==============================
+
+a_in3:  
+
+ορισμοί: 
+#define MAX_WORDS 100
+#define MAX_WORD_LEN 24
+#define MAX_SYNONYMS 100
+#define MAX_LINE_LEN 70
+#define MAX_FILENAME_LEN 20
+
+ορίσματα προγράμματος: -p -h -r s_in3
+
+==============================
+a_in4: 
+
+ορισμοί:
+#define MAX_WORDS 40000
+#define MAX_WORD_LEN 24
+#define MAX_SYNONYMS 100
+#define MAX_LINE_LEN 70
+#define MAX_FILENAME_LEN 20
+
+ορίσματα προγράμματος: -p -h -r s_in4
